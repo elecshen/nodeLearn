@@ -1,7 +1,7 @@
-export const input = [
-  Math.floor(Math.random() * 12 + 1),
-  Math.floor(Math.random() * (2100 - 1900 + 1) + 1900),
-];
+export const input = {
+  month: Math.floor(Math.random() * 12 + 1),
+  year: Math.floor(Math.random() * (2100 - 1900 + 1) + 1900),
+};
 
 const SEASONS = {
   0: "Winter",
