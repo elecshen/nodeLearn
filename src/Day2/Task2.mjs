@@ -1,6 +1,6 @@
 export const input = 200;
 
-export function FindFib(max) {
+export function findFib(max) {
   let fibArr = [0, 1];
 
   for (let i = 1; fibArr[i] < max; i++) {

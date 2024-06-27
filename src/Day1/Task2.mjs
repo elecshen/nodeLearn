@@ -1,6 +1,6 @@
 export const input = "hello alexandr!";
 
-export function ReplaceOnFirstLetter(str) {
+export function replaceOnFirstLetter(str) {
   let words = str.split(" ");
 
   for (let i = 0; i < words.length; i++) {

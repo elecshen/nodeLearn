@@ -1,6 +1,6 @@
 export const input = 100;
 
-export function FindPrime(max) {
+export function findPrime(max) {
   max++;
   let isPrimeArr = Array.from({ length: max }, () => true);
   let primes = [];

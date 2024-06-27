@@ -4,6 +4,6 @@ export const input = [
   [2, 6],
 ];
 
-export function SortAndJoin(arr) {
+export function sortAndJoin(arr) {
   return arr.flat().sort();
 }

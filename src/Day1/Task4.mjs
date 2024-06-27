@@ -1,7 +1,7 @@
 export const input =
   "https://raw.githubusercontent.com/jakiichu/data/main/data.json";
 
-export async function FetchData(url) {
+export async function fetchData(url) {
   let result = [];
   const data = await (await fetch(url)).json();
   const { address, person, productsOrder } = data;

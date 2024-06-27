@@ -11,7 +11,7 @@ const SEASONS = {
   4: "Winter",
 };
 
-export function WhatIsTime(month, year) {
+export function whatIsTime(month, year) {
   return {
     season: SEASONS[Math.floor(month / 3)],
     year:

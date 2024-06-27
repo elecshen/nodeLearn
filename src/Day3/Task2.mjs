@@ -3,7 +3,7 @@ export const input = {
   wordArr: ["one", "two", "three"],
 };
 
-export function SortAndJoin(numArr, wordArr) {
+export function sortAndJoin(numArr, wordArr) {
   BubbleSort(numArr);
   return [...numArr, ...wordArr];
 }

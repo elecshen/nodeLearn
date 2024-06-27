@@ -1,6 +1,6 @@
 export const input = ["дим", "манек", "рота"];
 
-export function MakePalindromeFromArr(arr) {
+export function makePalindromeFromArr(arr) {
   let result = [];
 
   arr.forEach((element) => {

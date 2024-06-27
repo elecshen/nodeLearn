@@ -1,6 +1,6 @@
 export const input = "DDADSADASDAAADS";
 
-export function FindUnique(str) {
+export function findUnique(str) {
   let uniChar = [...new Set(str)].join("");
   return uniChar;
 }

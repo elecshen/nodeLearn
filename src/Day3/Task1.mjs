@@ -3,7 +3,7 @@ export const input = {
   numToFound: 0,
 };
 
-export function SortAndFind(arr, num) {
+export function sortAndFind(arr, num) {
   SelectionSort(arr);
   return { arr, index: BinarySearch(arr, num) };
 }
